@@ -1,0 +1,6 @@
+### python和python3 使用pip
+
+如果你的电脑里同时装了python和python3，新同学可能不清楚pip和pip3 有什么区别。
+
+简单来说pip和pip3是一样的，只是为了区别python2和python3之间的调用，避免冲突而进行的设定。如果你的电脑只安装了python3,那么你使用pip和pip3效果都是一样的，如果你的电脑只安装了python，那么你无法使用呢pip3。
+同时安装了python和python3，使用pip命令，新安装的库会在python2.x/site-packages目录下。使用pip3命令，新安装的库会在python3.x/site-packages的目录下
